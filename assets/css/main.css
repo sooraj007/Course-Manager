@@ -1,0 +1,19 @@
+body
+{
+	background-color:#2E373E;
+	
+}
+.container
+{
+	margin-top : 50px !important;
+}
+
+.log1
+{
+	width:112px;
+	height:auto;
+	position: absolute;
+	left:41%;
+	/*background-color: #38AC57;*/
+
+}

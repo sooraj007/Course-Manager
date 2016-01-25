@@ -1,0 +1,20 @@
+{
+    "name": "t2c/soorajnarayan",
+    "description": "Course Management system for teach to code",
+    "type": "wordpress-plugin",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Sooraj Narayan",
+            "email": "teachtocodes@gmail.com"
+        }
+    ],
+  
+    "autoload":{
+"psr-4":{
+"course\\" : "core/course"
+
+}
+
+}
+}
