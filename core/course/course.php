@@ -2,10 +2,11 @@
 namespace course;
 class Course
 {
-
+     protected $file;
 	public function __construct()
 	{
-			
+	
+		
 	}
 	private function Style($css)
 	{
@@ -15,17 +16,16 @@ class Course
 	{
 		echo '<img src="'.plugins_url('../../assets/images/', __FILE__ ).$image.'" class="'.$class.'">';
 	}
-	private function card($cimage)
+	private function card($cimage,$title,$content)
 	{
 
       echo '<div class="card">
             <div class="card-image">
-              <img src="images/sample-1.jpg">
-              <span class="card-title">Card Title</span>
+              <img src="'.plugins_url('../../assets/images/', __FILE__ ).$cimage.'">
+              <span class="card-title">'.$title.'</span>
             </div>
             <div class="card-content">
-              <p>I am a very simple card. I am good at containing small bits of information.
-              I am convenient because I require little markup to use effectively.</p>
+              <p>'.$content.'</p>
             </div>
             <div class="card-action">
               <a href="#">This is a link</a>
