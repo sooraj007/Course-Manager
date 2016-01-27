@@ -21,9 +21,21 @@ $this->style('materialize.min.css');
 	</div>
     <div class="row">
     	<div class="col m3"><?php echo $this->card("map.jpg","the title","Lorem Ipsum hai");?></div>
-    	<div class="col m3"></div>
-    	<div class="col m3"></div>
-    	<div class="col m3"></div>
+    	<div class="col m3"><?php echo $this->card("map.jpg","the title","Lorem Ipsum hai");?></div>
+    	<div class="col m3"><?php echo $this->card("map.jpg","the title","Lorem Ipsum hai");?></div>
+    	<div class="col m3"><?php echo $this->card("map.jpg","the title","Lorem Ipsum hai");?></div>
+    </div>
+       <div class="row">
+    	<div class="col m3"><?php echo $this->card("map.jpg","the title","Lorem Ipsum hai");?></div>
+    	<div class="col m3"><?php echo $this->card("map.jpg","the title","Lorem Ipsum hai");?></div>
+    	<div class="col m3"><?php echo $this->card("map.jpg","the title","Lorem Ipsum hai");?></div>
+    	<div class="col m3"><?php echo $this->card("map.jpg","the title","Lorem Ipsum hai");?></div>
+    </div>
+       <div class="row">
+    	<div class="col m3"><?php echo $this->card("map.jpg","the title","Lorem Ipsum hai");?></div>
+    	<div class="col m3"><?php echo $this->card("map.jpg","the title","Lorem Ipsum hai");?></div>
+    	<div class="col m3"><?php echo $this->card("map.jpg","the title","Lorem Ipsum hai");?></div>
+    	<div class="col m3"><?php echo $this->card("map.jpg","the title","Lorem Ipsum hai");?></div>
     </div>
 
 </div>

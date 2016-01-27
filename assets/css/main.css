@@ -2,6 +2,7 @@ body
 {
 	background-color:#2E373E;
 	height:auto;
+	min-height: 100%;
 	
 }
 .container
@@ -16,5 +17,6 @@ body
 	position: relative;
 	left:41%;
 	/*background-color: #38AC57;*/
+
 
 }
