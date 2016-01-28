@@ -22,14 +22,12 @@ class Course
       echo '<div class="card">
             <div class="card-image">
               <img src="'.plugins_url('../../assets/images/', __FILE__ ).$cimage.'">
-              <span class="card-title">'.$title.'</span>
+              <span class="card-title new badge"><span class="ctitle">'.$title.'</span></span>
             </div>
             <div class="card-content">
               <p>'.$content.'</p>
             </div>
-            <div class="card-action">
-              <a href="#">This is a link</a>
-            </div>
+           
           </div>  ';
 
 
