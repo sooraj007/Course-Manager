@@ -12,6 +12,10 @@ class Course
 	{
 		echo '<link rel="stylesheet" type="text/css" href="'.plugins_url('../../assets/css/', __FILE__ ).$css.'">';
 	}
+	private function Script($js)
+	{
+		echo '<script src="'.plugins_url('../../assets/js/', __FILE__ ).$js.'"></script>';
+	}
 	private function Image($image,$class)
 	{
 		echo '<img src="'.plugins_url('../../assets/images/', __FILE__ ).$image.'" class="'.$class.'">';

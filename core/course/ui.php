@@ -3,7 +3,11 @@
 <?php  
 
 $this->style('main.css'); 
+$this->style('typeit.css'); 
 $this->style('materialize.min.css');
+$this->script('jquery.js');
+$this->script('typeit.js');
+$this->script('angular-min.js');
 
 
 ?>
@@ -17,7 +21,7 @@ $this->style('materialize.min.css');
 		<div class="col m12">
 			<!-- Logo Image -->
 			<?php $this->image('imac.svg','log1'); ?><br><br>
-			<span class="ltext z-depth-2"><span class="fa fa-code" style="color:yellow"></span>&nbsp;  Course Manager</span>
+			<span class="ltext z-depth-2"><span class="fa fa-code" style="color:yellow"></span><span class="type-it"></span>  </span>
 
 		</div>
 	</div>
@@ -41,6 +45,7 @@ $this->style('materialize.min.css');
     </div>
 
 </div>
-
-
+<?php 
+$this->script('main.js');
+?>
 </body>
